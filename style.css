@@ -1,0 +1,154 @@
+* {
+  padding: 0;
+  margin: 0;
+  list-style-type: none;
+  text-decoration: none;
+  outline: none;
+  box-sizing: border-box;
+}
+body {
+  background-color: aliceblue;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.commone_input{
+width: 97%;
+display: inline-block;
+padding: 1rem;
+margin-bottom: 1rem;
+border: 1px solid gainsboro;
+box-shadow: 0.1rem 0.2rem 0.8rem rgba(205, 202, 202, 1);
+border-radius: 0.3rem;
+}
+
+form {
+  width: 80vw;
+  height: 96vh;
+  margin: 1rem auto;
+  background-color: white;
+}
+
+/* header section starts here */
+.header_section {
+  height: 18vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.left_header {
+  flex: 1;
+}
+
+.left_header img {
+  width: 15rem;
+  height: auto;
+  display: inline-block;
+}
+
+.right_header {
+  flex: 1;
+}
+/* header section ends here */
+
+/* main section starts here */
+.main_section {
+  height: 60vh;
+  /* display: grid; */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.line{
+    height: 20vh;
+}
+
+.title{
+    padding: 1rem 0 0 1rem;
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+}
+
+.name_section{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.input_section{
+    display: flex;
+    margin: 1rem;
+
+}
+
+.gender_email{
+    display: flex;
+    width: 100%;
+}
+
+.left, .right{
+    margin: 1rem;
+    width: 100%;
+}
+
+
+
+
+
+
+/* main section ends here */
+
+/* footer section starts here */
+.footer_section {
+  height: 18vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer_section button{
+    display: inline-block;
+    cursor: pointer;
+    text-transform: uppercase;
+    width: 15rem;
+    padding: 1rem;
+    background-color: transparent;
+    border: 1px solid snow;
+    box-shadow: 0.1rem 0.2rem 0.8rem rgba(205, 202, 202,1);
+    border-radius: 0.2rem;
+    transition: all 0.4s linear;
+
+}
+
+.footer_section button:hover{
+    background-color: green;
+}
+
+/* footer section ends here */
+
+/* responsive design starts here */
+@media (max-width: 768px) {
+  form {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+  }
+  .header_section {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+  }
+  .header_section,
+  .footer_section {
+    height: 20vh;
+  }
+
+  .left, .right{
+    width: 90%;
+    margin: 1rem;
+}
+
+}

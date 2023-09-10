@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <form action="">
+      <!-- header section starts here -->
+      <section class="header_section">
+        <section class="left_header">
+          <img src="./images/education.png" alt="logo" />
+        </section>
+
+        <section class="right_header">
+          <h2>Class Registration</h2>
+          <p>Fill out the form carefully for registration</p>
+        </section>
+      </section>
+      <!-- header section ends here -->
+
+      <hr class="hr_design" />
+
+      <!-- main section starts here -->
+      <section class="main_section">
+        <section class="name_section line">
+          <section class="title">
+            <h3>Student Name</h3>
+          </section>
+          <section class="input_section">
+            <section class="name">
+              <input
+                class="commone_input"
+                type="text"
+                name="fname"
+                id="fname"
+              />
+              <label for="fname">First Name</label>
+            </section>
+            <section class="name">
+              <input
+                class="commone_input"
+                type="text"
+                name="mname"
+                id="mname"
+              />
+              <label for="mname">Middle Name</label>
+            </section>
+            <section class="name">
+              <input
+                class="commone_input"
+                type="text"
+                name="lname"
+                id="lname"
+              />
+              <label for="lname">Last Name</label>
+            </section>
+          </section>
+        </section>
+
+        <section class="gender_email line">
+          <section class="left">
+            <section class="title">
+              <h3>Gender</h3>
+            </section>
+            <section class="gender_section">
+              <select name="gender" id="gender" class="commone_input">
+                <option value="Please Select">Please Select</option>
+                <option value="Female">Female</option>
+                <option value="Male">Male</option>
+                <option value="N/A">N/A</option>
+              </select>
+            </section>
+          </section>
+          <section class="right">
+            <section class="title">
+              <h3>Student E-mail</h3>
+            </section>
+            <section class="email_section">
+              <input
+                class="commone_input"
+                type="email"
+                name="email"
+                id="email"
+                placeholder="ex:myname@gmail.com"
+              />
+              <label for="email">example@gmail.com</label>
+            </section>
+          </section>
+        </section>
+
+        <!-- student id starts here -->
+        <section class="id_section line">
+              <section class="gender_email line">
+          <section class="left">
+            <section class="title">
+              <h3>Student Id</h3>
+            </section>
+
+            <section class="email_section">
+              <input
+                class="commone_input"
+                type="number"
+                name="number"
+                id="number"
+              />
+            </section>
+
+          </section>
+          <section class="right">
+            <section class="title">
+              <h3>Student E-mail</h3>
+            </section>
+
+             <section class="gender_section">
+              <select name="gender" id="gender" class="commone_input">
+                <option value="Please Select">Please Select</option>
+                <option value="English 101">English 101</option>
+                <option value="English 102">English 102</option>
+                <option value="English 103">English 103</option>
+                <option value="English 104">English 104</option>
+                <option value="Math 101">Math 101</option>
+                <option value="Math 102">Math 102</option>
+                <option value="Math 103">Math 103</option>
+                <option value="Math 104">Math 104</option>
+                <option value="Biology 101">Biology 101</option>
+                <option value="Biology 102">Biology 102</option>
+                <option value="Biology 103">Biology 103</option>
+                <option value="Biology 104">Biology 104</option>
+              </select>
+            </section>
+
+          </section>
+        </section>
+        </section>
+      </section>
+      <!-- main section ends here -->
+
+      <hr class="hr_design" />
+
+      <!-- footer section starts here -->
+      <section class="footer_section">
+        <button type="submit">Submit</button>
+      </section>
+      <!-- footer section ends here -->
+    </form>
+  </body>
+</html>
